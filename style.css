@@ -1,0 +1,46 @@
+header{
+    color:white;
+    font-family:fromsoftware;
+    text-align: center;
+}
+header h1{
+    font-size: 80px;
+}
+main{
+    margin-top: 120px;
+    color: white;
+}
+
+footer{
+
+}
+
+@font-face {
+    font-family: 'fromsoftware'; /*a name to be used later*/
+    src: url('fonts/SF\ Distant\ Galaxy.ttf'); /*URL to font*/
+}
+ 
+body{
+    text-align: center;
+    background-image: url("images/space.jpeg");
+}
+
+.main{
+    width: fit-content;
+    background-color: rgba(128, 128, 128, 0.445);
+    text-align: center;
+    margin: auto;
+}
+
+.navigation{
+    font-size: large;
+    width: fit-content;
+    background-color: darkgray;
+    text-align: center;
+    margin: auto;
+}
+#library{
+    text-align:center;
+    background-image: url(images/darkbookshelf.jpeg);
+}
+
